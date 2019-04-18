@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Asynchronous Web Apps Assignment</title>
+    <meta name="description" content="An asynchronous web application">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <h1>National Parks</h1>
+
+        <form id="formOne">
+
+            <fieldset>
+            
+            <p>
+            <legend>
+            Let's find some National Parks...
+            </legend>
+            </p>
+
+            <label for="inputOne">
+              Enter the two-letter code for a state. For example: "AK".
+              <a href="https://pe.usps.com/text/pub28/28apb.htm" target="_blank">Here is a list of two-letter codes</a>
+            <input id = "inputOne"  type="text">
+           
+            </label>
+            
+            <p></p>
+
+            <label for="inputTwo">
+                Enter the number or responses you wish to see...
+              <input id = "inputTwo"  type="text" value="10">
+            </label>
+
+            <p></p>
+
+            <label for="submitButton">
+            <input id="submitButton" type="submit" value="Send">
+            </label>
+
+            </fieldset>
+        </form>
+
+        <p id="displayArea"></p>
+        
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+
+  <body>
